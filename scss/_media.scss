@@ -1,0 +1,150 @@
+//===============================================================
+// брейкпоинты
+//===============================================================
+// for-big-desktope
+@media (min-width: 1800px) {
+
+}
+
+// for-desktope
+@media (max-width: 1024px) {
+	.header {
+		&-content {
+			justify-content: center;
+		}
+		&-menu {
+			&__list {
+				gap: 20px;
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+		}
+	}
+	.hero-content {
+		flex-direction: column;
+		align-items: start;
+		gap: 15px;
+	}
+	.hero-content__title {
+		max-width: 100%;
+		line-height: 80%;
+	}
+	.hero-content__text {
+		max-width: 100%;
+	}
+	.products-card {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.products-card__item {
+		width: calc(50% - 20px);
+	}
+}
+
+// for-tablet-landscape
+@media (max-width:900px) {
+
+}
+
+@media (max-width: 768px) {
+	.header-top {
+		flex-direction: column;
+		align-items: flex-start;
+		&__link {
+			margin-bottom: 15px;
+		}
+	}
+	.header-contact__item {
+		align-items: flex-start;
+	}
+	.hero-content {
+		text-align: center;
+	}
+	.hero-content__title {
+		font-size: 48px;
+	}
+	.about-content__box {
+		flex-direction: column;
+	}
+	.about-content__text {
+		width: 100%;
+		text-align: center;
+	}
+	.about-image {
+		flex-direction: column;
+		align-items: center;
+	}
+	.about-image__img {
+		width: 100%;
+		padding-top: 30%;
+	}
+	.about-content__title,
+	.products__title,
+	.map__title,
+	.news__title {
+		text-align: center;
+		font-size: 40px;
+	}
+	.news-card__item {
+		flex: 0 1 50%;
+	}
+	.footer-body {
+		flex-direction: column;
+	}
+	.footer-body__column:not(last-child) {
+		margin-bottom: 15px;
+	}
+}
+	
+// for-tablet-portrait
+@media (max-width: 600px) {
+	.header-contact {
+		flex-direction: column;
+		gap: 10px;
+		&__item {
+			align-items: center;
+		}
+	}
+	.header-top {
+		align-items: center;
+		padding-bottom: 15px;
+	}
+
+	.header-content {
+		flex-direction: column;
+	}
+	.header-menu__list {
+		flex-direction: column;
+		align-items: center;
+	}
+	.products-card__item {
+		width: calc(100% - 20px);
+	}
+	.news-card__item {
+		flex: 0 1 100%;
+	}
+	.news-card__img {
+		padding-top: 40%;
+	}
+	.footer-body__column {
+		justify-content: center;
+	}
+	.footer-body__item {
+		flex: 0 1 100%;
+		text-align: center;
+	}
+	.footer-body {
+		margin-bottom: 0px;
+	}
+}
+
+
+// for-phone-landscape
+@media (max-width: 425px) {
+	.about-content__title,
+	.products__title,
+	.map__title,
+	.news__title {
+		font-size: 32px;
+	}
+}
