@@ -157,7 +157,7 @@ ul {
   font-size: 14px;
 }
 .header-contact__link {
-  color: #78DBE2;
+  color: #3F72AF;
   font-size: 20px;
   font-weight: 600;
 }
@@ -179,7 +179,7 @@ ul {
   margin-bottom: 15px;
 }
 .header-content__contact {
-  color: #78DBE2;
+  color: #3F72AF;
   text-transform: uppercase;
   position: relative;
   margin: 0 0 0 20px;
@@ -320,7 +320,7 @@ ul {
   font-size: 20px;
   font-weight: 400;
   line-height: 120%;
-  color: #78DBE2;
+  color: #3F72AF;
   display: inline-block;
   position: relative;
 }
@@ -418,7 +418,7 @@ ul {
           align-items: center;
 }
 .news-card__link {
-  color: #78DBE2;
+  color: #3F72AF;
   font-weight: 600;
   line-height: 120%;
 }
